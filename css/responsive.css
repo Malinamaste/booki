@@ -1,0 +1,146 @@
+/* RESPONSIVE TABLETTES */
+@media screen and (max-width: 992px) {
+    /* FILTRES */
+    #filters {
+        margin-top: 30px;
+    }
+    /* HEBERGEMENTS + POPULAIRES */
+    #main_content {
+        flex-wrap: wrap;
+    }
+    #hebergements {
+        margin-bottom: 5%;
+        margin-right: 0;
+    }
+    .container_box {
+        justify-content: space-around;
+    }
+    .popular_card_img {
+        padding: 0;
+    }
+    .column {
+        width: 22%;
+    }
+    /* FOOTER */
+    footer ul {
+        padding-right: 13%;
+    }
+}
+/* RESPONSIVE SMARTPHONES */
+@media screen and (max-width: 768px) {
+    /* HEADER */
+    header {
+        display: block;
+    }
+    .header_logo {  
+        display: flex;
+        justify-content: center;
+        padding: 26px 55px;
+    }
+    #main_nav {
+        justify-content: center;
+        padding: 0;
+    }
+    #main_nav a {
+        padding: 15px 60px;
+        border-bottom: 3px solid #d6d6d6;
+    }
+    #main_nav a:hover, #main_nav a:active {
+        color: #0065FC;
+        border-bottom: 3px solid;
+        border-top: none;
+    }
+    /* RECHERCHES */
+    #research {
+        padding-top: 45px;
+    }
+    #research h1 {
+        font-weight: 600;
+    }
+    #research form {
+        padding: 25px 0;
+    }
+    #search {
+        padding: 14px 17px;
+        border-radius: 15px;
+        position: relative;
+        top: 0px;
+        left: -15px;
+    }
+    #search .fa-solid {
+        display: contents;
+        font-size: 0.9em;
+    }
+    #search span {
+        display: none;
+    }
+    /* FILTERS */
+    #filters h2 {
+        margin: 0;
+    }
+    #filters span {
+        font-size: 16px;
+    }
+    #info_filters p {
+        font-size: 0.7rem;
+    }
+    /* HEBERGEMENTS + POPULAIRES */
+    #main_content {
+        margin: 0;
+        flex-direction: column-reverse;
+    }
+    #hebergements, #populaires {
+        border-radius: 0;
+    }
+    #hebergements {
+        background-color: #fff;
+        margin: 0;
+    }
+    .card, .popular_card {
+        margin-bottom: 15px;
+    }
+    .card {
+        width: 100%;
+    }
+    .card_body {
+        padding: 2% 2% 0 2%;
+    }
+    /* ACTIVITES */
+    #activites {
+        margin: 0;
+        padding: 30px;
+    }
+    #activites h3 {
+        padding: 0 0 7% 0;
+    }
+    .activites_content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .activites_card {
+        height: 180px;
+        width: 100%;
+    }
+    .column {
+        width: 100%;
+        height: 400px;
+        justify-content: space-evenly;
+    }
+    .column article:nth-child(1), .column article:nth-child(2) {
+        height: 45%;
+    }
+    .activites_card_img {
+        height: 75%;
+    }
+    .activites_card_title, .column .activites_card_title {
+        padding: 15px;
+    }
+    /* FOOTER */
+    footer {
+        display: block;
+        padding: 40px 30px 30px 30px;
+    }
+    footer ul:nth-child(2) {
+        margin: 30px 0;
+    }
+}
